@@ -8,4 +8,5 @@ export default defineConfig({
       react(),
       tailwindcss()
   ],
+  base: "/f8-fullstack-baitapday33/", 
 })
