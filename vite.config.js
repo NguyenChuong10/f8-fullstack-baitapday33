@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
@@ -8,5 +9,5 @@ export default defineConfig({
       react(),
       tailwindcss()
   ],
-  base: "/f8-fullstack-baitapday33/", 
+  base: process.env.NODE_ENV === "production" ? "/f8-fullstack-baitapday33/" : "/", 
 })
