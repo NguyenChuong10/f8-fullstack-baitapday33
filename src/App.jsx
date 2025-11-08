@@ -2,11 +2,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router'
 
 import DefaultLayout from './layouts/Defaultlayout'
-import Home from './Pages/Home/index'
+import Home from './pages/Home/index'
 import './App.css'
 import './index.css'
-import News from './Pages/News/index'
-import About from './Pages/About/index'
+import News from './pages/News/index'
+import About from './pages/About/index'
 
 function App() {
   return (
