@@ -2,10 +2,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router'
 
 import DefaultLayout from './layouts/Defaultlayout'
-import Home from './pages/Home/index'
+import Home from './Pages/Home/index'
 import './App.css'
 import './index.css'
-import News from './pages/News/index'
+import News from '../pages/news/index'
 import About from './pages/About/index'
 
 function App() {
